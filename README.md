@@ -36,6 +36,10 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 
 ## PROGRAM:
 ```
+Developed by: Harini B.
+Register Number: 212221230035
+```
+```
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
     prev_V = np.zeros(len(P), dtype=np.float64)
 # code  to evaluate the given policy
